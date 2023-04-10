@@ -1,0 +1,30 @@
+.box{
+    margin-left: 240px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.sub_box{
+    border-left: none;
+}
+
+.card{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.img{
+    border-radius: 8px ;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+
+TabPanel.MuiBox-root{
+    padding-top: "0px",
+}
+
+.middle_box{
+}

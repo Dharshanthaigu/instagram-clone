@@ -1,0 +1,63 @@
+
+.CardSection{
+    display: flex;
+    gap:65px;
+    margin: 22px 230px 0px 230px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.image{
+    margin-left: 112px;
+}
+
+.profile_image{
+    width: 177px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.user_data{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    margin-top: 8px;
+    width: 380px;
+}
+
+.user_btn{
+    display: flex;
+    gap:12px;
+}
+
+.btns{
+    background-color: rgb(235, 235, 235);
+    border-radius: 8px;
+    color: black;
+    border: none;
+    width: 90px;
+    height: 28px ;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.margining{
+margin-top: 22px;
+    margin-left: 18px;
+}
+
+.profile_posts{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.user_link{
+    text-decoration: none;
+    color: hsl(213, 96%, 18%);
+}
+
+.profile_link{
+    line-height: 1.2;
+}
